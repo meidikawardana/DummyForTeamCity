@@ -1,0 +1,52 @@
+{
+  "name": "dummy-for-teamcity",
+  "version": "0.0.1",
+  "description": "Sample project for TeamCity research",
+  "productName": "DummyForTeamCity",
+  "author": "Meidika Wardana <meidika@horizondigital.au>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --fix --ext=.js,.vue .",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@casl/ability": "^6.7.1",
+    "@casl/vue": "^2.2.2",
+    "@quasar/extras": "^1.16.11",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.7.2",
+    "axios-retry": "^3.3.1",
+    "core-js": "^3.37.0",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "quasar": "^2.16.4",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.24.7",
+    "@quasar/app-vite": "^1.9.3",
+    "eslint": "^8.43.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "eslint-webpack-plugin": "^2.4.0",
+    "prettier": "^2.8.8"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
